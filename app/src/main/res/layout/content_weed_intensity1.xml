@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".WeedIntensity1"
+    tools:showIn="@layout/activity_weed_intensity1"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp">
+
+    <TextView
+        android:id="@+id/textView_weedintensity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/weedintensity"/>
+
+    <RadioGroup
+        android:id="@+id/radiogrp_weedintensity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_weedintensity"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/weedintensity_weedfree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weedfree"
+            android:textSize="18dp" />
+        <RadioButton
+            android:id="@+id/weedintensity_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+        <RadioButton
+            android:id="@+id/weedintensity_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+        <RadioButton
+            android:id="@+id/weedintensity_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+        <RadioButton
+            android:id="@+id/weedintensity_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/others"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

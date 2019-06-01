@@ -1,0 +1,420 @@
+<resources>
+    <string name="app_name">JioCollect</string>
+    <string name="action_settings">Settings</string>
+
+    ////////////////////////////////////////////////////
+    // Activity labels
+    ////////////////////////////////////////////////////
+    <string name="mainActivity_label">JioCollect | Home</string>
+    <string name="pestAttackActivity_label">JioCollect | Pest Attack</string>
+    <string name="diseaseActivity_label">JioCollect | Disease</string>
+    <string name="nutrientDeficiencyActivity_label">JioCollect | Nutrient Deficiency</string>
+    <string name="cameraActivity_label">JioCollect | Click Picture</string>
+    <string name="title_activity_camera_unhealthy">JioCollect | Click Picture</string>
+    <string name="title_activity_weed_intensity1">JioCollect | Weed Intensity</string>
+    <string name="title_activity_water_stress">JioCollect | Water Stress</string>
+
+    <string name="weedintensity">Level of weed intensity-</string>
+    <string name="waterstress">Level of water stress-</string>
+    <string name="weedfree">Weed Free</string>
+    <string name="nostress">No Stress</string>
+    <string name="low">Low</string>
+    <string name="mild">Mild</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="others">Others</string>
+
+    ////////////////////////////////////////////////////
+    // MainActivity strings
+    ////////////////////////////////////////////////////
+    <string name="mainActivity_tv_selectCrop">CROP</string>
+    <string-array name="mainActivity_spinner_selectCrop">
+        <item>SELECT CROP</item>
+        <item>RICE</item>
+        <item>COTTON</item>
+        <item>WHEAT</item>
+        <item>MAIZE</item>
+        <item>REDGRAM</item>
+        <item>SOYABEAN</item>
+        <item>GROUNDNUT</item>
+        <item>BLACKGRAM</item>
+    </string-array>
+    <string name="mainActivity_tv_selectSeason">SEASON</string>
+    <string-array name="mainActivity_spinner_selectSeason">
+        <item>SELECT SEASON</item>
+        <item>EARLY KHARIF</item>
+        <item>KHARIF</item>
+        <item>LATE KHARIF</item>
+        <item>EARLY RABI</item>
+        <item>RABI</item>
+        <item>EARLY SUMMER</item>
+        <item>SUMMER</item>
+    </string-array>
+    <string name="mainActivity_tv_selectStage">STAGE</string>
+    // values for spinner_selectStage - to initialize
+    <string-array name="mainActivity_spinner_initStageValues">
+        <item>SELECT STAGE</item>
+    </string-array>
+    // dynamic stage for each crop //////////////////////////
+    <string-array name="mainActivity_spinner_riceStage">
+        <item>SELECT STAGE</item>
+        <item>NURSERY</item>
+        <item>EARLY VEGETATIVE</item>
+        <item>TILLERING</item>
+        <item>DOUGH/MILKING</item>
+        <item>GRAIN FILLING</item>
+        <item>EARLY MATURITY</item>
+        <item>LATE MATURITY</item>
+    </string-array>
+    <string-array name="mainActivity_spinner_cottonStage">
+        <item>SELECT STAGE</item>
+        <item>VEGETATIVE</item>
+        <item>SQUARING</item>
+        <item>FLOWERING</item>
+        <item>BOLL FORMATION</item>
+        <item>BOLL MATURING</item>
+    </string-array>
+    <string-array name="mainActivity_spinner_wheatStage">
+        <item>SELECT STAGE</item>
+        <item>NURSERY</item>
+        <item>EARLY VEGETATIVE</item>
+        <item>TILLERING</item>
+        <item>DOUGH/MILKING</item>
+        <item>GRAIN FILLING</item>
+        <item>EARLY MATURITY</item>
+        <item>LATE MATURITY</item>
+    </string-array>
+    <string-array name="mainActivity_spinner_maizeStage">
+        <item>SELECT STAGE</item>
+        <item>EARLY VEGETATIVE</item>
+        <item>WHORL FORMATION</item>
+        <item>TASSELLING</item>
+        <item>SILKING</item>
+        <item>MILKY STAGE</item>
+        <item>GRAIN MATURITY</item>
+    </string-array>
+    <string-array name="mainActivity_spinner_redgramStage">
+        <item>SELECT STAGE</item>
+        <item>VEGETATIVE</item>
+        <item>FLOWERING</item>
+        <item>POD FORMATION</item>
+        <item>POD MATURATION</item>
+    </string-array>
+    <string-array name="mainActivity_spinner_soyabeanStage">
+        <item>SELECT STAGE</item>
+        <item>VEGETATIVE</item>
+        <item>FLOWERING</item>
+        <item>POD FORMATION</item>
+        <item>POD MATURATION</item>
+    </string-array>
+    <string-array name="mainActivity_spinner_groundnutStage">
+        <item>SELECT STAGE</item>
+        <item>VEGETATIVE</item>
+        <item>FLOWERING</item>
+        <item>PEG PENETRATION</item>
+        <item>POD FORMATION</item>
+        <item>POD MATURATION</item>
+    </string-array>
+    <string-array name="mainActivity_spinner_blackgramStage">
+        <item>SELECT STAGE</item>
+        <item>VEGETATIVE</item>
+        <item>FLOWERING</item>
+        <item>POD FORMATION</item>
+        <item>POD MATURATION</item>
+    </string-array>
+    ////////////////////////////////////////////////////////////////
+    <string name="mainActivity_tv_healthStatus">HEALTH STATUS</string>
+    <string name="mainActivity_rb_healthy">HEALTHY</string>
+    <string name="mainActivity_rb_nonhealthy">UNHEALTHY</string>
+    <string name="title_activity_pest_attack">PestAttackActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+
+    ////////////////////////////////////////////////////
+    // PestAttack Activity strings
+    ////////////////////////////////////////////////////
+    <string name="pestAttack_noInsect">NOINSECT</string>
+    <string name="pestAttack_otherInsect">OTHERINSECT</string>
+    <string name="pestAttack_unknown">UNKNOWN</string>
+    <string-array name="pestAttack_rice">
+        <item>STEMBORER</item>
+        <item>LEAF FOLDER</item>
+        <item>BROWN PLANT HOPPER/WHITE BACKED PLANT HOPPER</item>
+        <item>GREEN LEAF HOPPER</item>
+        <item>RICE HISPA</item>
+        <item>GALL MIDGE</item>
+        <item>CASE WORM</item>
+        <item>NO INSECT</item>
+        <item>OTHER INSECT</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="pestAttack_cotton">
+        <item>FRUIT/BOLL BORER</item>
+        <item>PINK BOLLWORM</item>
+        <item>SPOTTED BOLLWORM</item>
+        <item>CUT WORM</item>
+        <item>LEAF HOPPER</item>
+        <item>APHID</item>
+        <item>WHITE FLY</item>
+        <item>MEALYBUGS</item>
+        <item>DUSKY COTTON BUGS</item>
+        <item>NO INSECT</item>
+        <item>OTHER INSECT</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="pestAttack_wheat">
+        <item>APHID</item>
+        <item>BROWN MITE</item>
+        <item>TERMITES</item>
+        <item>PINK STEM BORER</item>
+        <item>AMERICAN POT BORER</item>
+        <item>ARMY WORM</item>
+        <item>SHOOTFLY</item>
+        <item>NO INSECT</item>
+        <item>OTHER INSECT</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="pestAttack_maize">
+        <item>SHOOTFLY</item>
+        <item>PINK STEM BORER</item>
+        <item>STEM BORER</item>
+        <item>APHID</item>
+        <item>COB BORER</item>
+        <item>NO INSECT</item>
+        <item>OTHER INSECT</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="pestAttack_redGram">
+        <item>BLISTER BEETLES</item>
+        <item>RED GRAM PLUM MOTH</item>
+        <item>GRAM POD BORER</item>
+        <item>SPOTTED POD BORER</item>
+        <item>LEAF HOPPER</item>
+        <item>RED GRAM POD FLY</item>
+        <item>WHITE FLY</item>
+        <item>ERIOPHYID MITE</item>
+        <item>NO INSECT</item>
+        <item>OTHER INSECT</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="pestAttack_soyabean">
+        <item>STEM FLY</item>
+        <item>LEAF DEFOLIATOR</item>
+        <item>POD BORER</item>
+        <item>BIHAR HAIRY CATERPILLAR</item>
+        <item>SEMI LOPPER</item>
+        <item>LEAF MINER</item>
+        <item>WHITE FLY</item>
+        <item>GRIDLE BEETLE</item>
+        <item>NO INSECT</item>
+        <item>OTHER INSECT</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="pestAttack_groundnut">
+        <item>APHID</item>
+        <item>LEAF MINER</item>
+        <item>POD BORER</item>
+        <item>TOBACCO CATERPILLAR</item>
+        <item>RED HAIRY CATERPILLAR</item>
+        <item>GRAM POD BORER</item>
+        <item>THRIPS</item>
+        <item>JASSIDS</item>
+        <item>NO INSECT</item>
+        <item>OTHER INSECT</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="pestAttack_blackGram">
+        <item>POD BORER</item>
+        <item>SPOTTED POD BORER</item>
+        <item>BLUE BUTTERFLY POD BORER</item>
+        <item>APHID</item>
+        <item>LEAF HOPPER</item>
+        <item>POD BUGS</item>
+        <item>STINK BUGS</item>
+        <item>WHITE FLY</item>
+        <item>STEM FLY</item>
+        <item>POD FLY</item>
+        <item>THRIPS</item>
+        <item>BLISTER BEETLES</item>
+        <item>NO INSECT</item>
+        <item>OTHER INSECT</item>
+        <item>UNKNOWN</item>
+    </string-array>
+
+    <string name="title_activity_disease">DiseaseActivity</string>
+
+    ////////////////////////////////////////////////////
+    // Disease Activity strings
+    ////////////////////////////////////////////////////
+    <string name="disease_noDisease">NODISEASE</string>
+    <string name="disease_otherDisease">OTHERDISEASE</string>
+    <string name="disease_unknown">UNKNOWN</string>
+    <string-array name="disease_rice">
+        <item>NECK BLAST</item>
+        <item>LEAF BLAST</item>
+        <item>SHEATH BLIGHT</item>
+        <item>BACTERIAL BLIGHT</item>
+        <item>TUNGRO DISEASE</item>
+        <item>BROWN SPOT</item>
+        <item>NO DISEASE</item>
+        <item>OTHER DISEASE</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="disease_cotton">
+        <item>ALTERNARIA LEAF SPOT</item>
+        <item>GREY MILDEW</item>
+        <item>MYROTHECIUM LEAF SPOT</item>
+        <item>FUSARIUM WILT</item>
+        <item>BACTERIAL BLIGHT/ANGULAR LEAF SPOT OF COTTON</item>
+        <item>COTTON LEAF CURL VIRUS</item>
+        <item>ROOT ROT</item>
+        <item>NO DISEASE</item>
+        <item>OTHER DISEASE</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="disease_wheat">
+        <item>BROWN RUST</item>
+        <item>YELLOW/STRIPE RUST</item>
+        <item>BLACK RUST</item>
+        <item>LOOSE SMUT</item>
+        <item>POWDERY MILDEW</item>
+        <item>ALTERNARIA LEAF BLIGHT</item>
+        <item>KARNAL BLUNT</item>
+        <item>FOOT ROT</item>
+        <item>NO DISEASE</item>
+        <item>OTHER DISEASE</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="disease_maize">
+        <item>TURCICUM LEAF BLIGHT</item>
+        <item>MAYDIS LEAF BLIGHT</item>
+        <item>POLYSORA RUST</item>
+        <item>DOWNY MILDEW</item>
+        <item>BANDED LEAF AND SHEATH BLIGHT</item>
+        <item>FUSARIUM STALK ROT</item>
+        <item>CHARCOAL ROT</item>
+        <item>NO DISEASE</item>
+        <item>OTHER DISEASE</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="disease_redGram">
+        <item>WILT</item>
+        <item>DRY ROOT ROT</item>
+        <item>STERILITY MOSAIC</item>
+        <item>RED GRAM YELLOW MOSAIC</item>
+        <item>STEM ROT</item>
+        <item>NO DISEASE</item>
+        <item>OTHER DISEASE</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="disease_soyabean">
+        <item>RUST</item>
+        <item>COLLAR ROT/SCLEROTIUM BLIGHT</item>
+        <item>CHARCOAL ROT</item>
+        <item>RHIZOCTONIA ROOT ROT</item>
+        <item>ANTHRACNOSE</item>
+        <item>NO DISEASE</item>
+        <item>OTHER DISEASE</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="disease_groundnut">
+        <item>ALTERNARIA BLIGHT</item>
+        <item>COLLAR ROT</item>
+        <item>DRY ROOT ROT</item>
+        <item>LEAF SPOT</item>
+        <item>RUST</item>
+        <item>PEANUT BUD NECROSIS TOSPOVIRUS DISEASE</item>
+        <item>NO DISEASE</item>
+        <item>OTHER DISEASE</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="disease_blackGram">
+        <item>MACROPHOMNIA BLIGHT</item>
+        <item>BACTERIAL LEAF BLIGHT</item>
+        <item>CERCOSPORA LEAF BLIGHT</item>
+        <item>POWDERY MILDEW</item>
+        <item>ROOT ROT AND LEAF BLIGHT</item>
+        <item>RUST</item>
+        <item>YELLOW MOSAIC VIRUS</item>
+        <item>LEAF CRINKLE</item>
+        <item>NO DISEASE</item>
+        <item>OTHER DISEASE</item>
+        <item>UNKNOWN</item>
+    </string-array>
+
+    <string name="title_activity_nutrient_deficiency">NutrientDeficiency</string>
+
+    ////////////////////////////////////////////////////
+    // NutrientDeficiency Activity strings
+    ////////////////////////////////////////////////////
+    <string name="nutrientDef_noDef">NODEFICIENCY</string>
+    <string name="nutrientDef_otherDef">OTHERDEFICIENCY</string>
+    <string name="nutrientDef_unknown">UNKNOWN</string>
+    <string-array name="nutrientDeficiency_rice">
+        <item>ZINC</item>
+        <item>IRON</item>
+        <item>POTASH</item>
+        <item>NO DEFICIENCY</item>
+        <item>OTHER DEFICIENCY</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="nutrientDeficiency_cotton">
+        <item>MAGNESIUM</item>
+        <item>BORON</item>
+        <item>CALCIUM</item>
+        <item>IRON</item>
+        <item>POTASH</item>
+        <item>NO DEFICIENCY</item>
+        <item>OTHER DEFICIENCY</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="nutrientDeficiency_wheat">
+        <item>NO DEFICIENCY</item>
+        <item>OTHER DEFICIENCY</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="nutrientDeficiency_maize">
+        <item>SULPHUR</item>
+        <item>POTASH</item>
+        <item>IRON</item>
+        <item>NO DEFICIENCY</item>
+        <item>OTHER DEFICIENCY</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="nutrientDeficiency_redGram">
+        <item>NO DEFICIENCY</item>
+        <item>OTHER DEFICIENCY</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="nutrientDeficiency_soyabean">
+        <item>NO DEFICIENCY</item>
+        <item>OTHER DEFICIENCY</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="nutrientDeficiency_groundnut">
+        <item>IRON</item>
+        <item>ZINC</item>
+        <item>NO DEFICIENCY</item>
+        <item>OTHER DEFICIENCY</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="nutrientDeficiency_blackGram">
+        <item>ZINC</item>
+        <item>BORON</item>
+        <item>IRON</item>
+        <item>MAGNESIUM</item>
+        <item>SULPHUR</item>
+        <item>POTASSIUM</item>
+        <item>NO DEFICIENCY</item>
+        <item>OTHER DEFICIENCY</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string name="title_activity_testing">TestingActivity</string>
+    <string name="title_activity_dbvalidation">DBValidationActivity</string>
+
+    /////////////////////////////////////////////////////////
+    // DELETE THIS - FOR DEBUGGING PURPOSE XXXXXXXXXXXXXXXXXX
+    /////////////////////////////////////////////////////////
+    <string name="dbValidation_selectButton_label">SELECT</string>
+
+
+</resources>
